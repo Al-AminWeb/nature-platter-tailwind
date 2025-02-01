@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6aa5725-9ad9-435c-a176-7db9fff6314c" name="Changes" comment="">
+    <list default="true" id="a6aa5725-9ad9-435c-a176-7db9fff6314c" name="Changes" comment="hero and services section done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -24,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Al-AminWeb"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Al-AminWeb&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Al-AminWeb/nature-platter-tailwind.git",
-    "accountId": "2d16f0a8-3b58-4df4-a764-b7e0438f0a43"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Al-AminWeb/nature-platter-tailwind.git&quot;,
+    &quot;accountId&quot;: &quot;2d16f0a8-3b58-4df4-a764-b7e0438f0a43&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -50,6 +50,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -75,11 +76,25 @@
       <option name="presentableId" value="Default" />
       <updated>1738301394545</updated>
       <workItem from="1738301396769" duration="2015000" />
-      <workItem from="1738385133045" duration="5209000" />
+      <workItem from="1738385133045" duration="8493000" />
+      <workItem from="1738413842235" duration="3559000" />
     </task>
+    <task id="LOCAL-00001" summary="hero and services section done">
+      <option name="closed" value="true" />
+      <created>1738390779091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738390779091</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hero and services section done" />
+    <option name="LAST_COMMIT_MESSAGE" value="hero and services section done" />
   </component>
 </project>
