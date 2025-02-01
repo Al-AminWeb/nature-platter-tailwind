@@ -1,39 +1,122 @@
 <!doctype html>
-<html lang="en" data-theme="light">
+<html data-theme="light" lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Nature Platters</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/56458d5148.js" crossorigin="anonymous"></script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/56458d5148.js"></script>
+    <style>
+        .poppins {
+            font-family: "Poppins", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .sora {
+            font-family: "Sora", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
 </head>
 <body>
 <header>
-    <nav class="container mx-auto mt-5">
-        <div>
-           <div class="flex justify-evenly items-center">-<img src="c2-assets/logo-header.png" alt="">
-              <div class="flex gap-5">
-                  <a href="">Product</a>
-                  <a href="">Services</a>
-                  <a href="">Contact us</a>
-              </div>
-              <div class="flex gap-4">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                  <i class="fa-solid fa-cart-shopping"></i>
-              </div>
-              <div class="flex gap-5">
-                  <button class="box-border border border-[rgb(23,152,0)] rounded-lg  p-[10px_30px]  mx-[12px]">Log in</button>
-                  <button class="bg-green-950 text-white rounded-lg m-2 p-2">Register</button>
-              </div>
-           </div>
+    <nav class="container mx-auto mb-24">
+        <div class=" navbar bg-base-100">
+            <div class="navbar-start">
+                <a  >
+                    <img src="c2-assets/logo-header.png" alt="">
+                </a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="flex items-center space-x-6">
+                    <li><a>Product</a></li>
+                    <li>
+                        <summary>Service</summary>
+                    </li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end gap-3 hidden lg:flex">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a
+                        class="btn bg-white border-2 border-[#179800] text-[#111111] text-xl font-normal sora px-6 rounded-md">Login</a>
+                <a
+                        class="btn btn bg-[#179800] border-2 border-[#179800] text-[#FFFFFF] text-xl font-normal sora px-6 rounded-md">Register</a>
+            </div>
+            <div class=" lg:hidden navbar-end">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                             stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Product</a></li>
+                        <li>
+                            <summary>Service</summary>
+                        </li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
+
+<!--    Hero Section-->
+    <section class="container mx-auto mb-36 ">
+            <div class="text-center px-8 mx-w-3xl mx-auto ">
+                <h1 class="text-5xl font-semibold  font-[Sora] text-center mb-4 lg:mb-8 animate-pulse">Freshness <span class="text-[rgb(23,152,0)]">You Can <br>
+                Count On</span>, Prices You’ll Love!</h1>
+                <p class="text-[#111111] font-normal text-[20px] text-center opacity-80 font-sora mb-9">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+            </div>
+            <div>
+                <img class="lg:max-6-xl w-full mx-auto" src="c2-assets/hero-vegetables.png" alt="">
+            </div>
+    </section>
 </header>
 <main>
-
+ <section class="sora container mx-auto">
+     <h1 class="text-[#179800] text-4xl font-semibold mb-14">Services</h1>
+    <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 mt-4 mb-36">
+<!--    card 1-->
+        <div class="text-center justify-center items-center bg-[#EFEBE3] rounded-2xl">
+            <div><img class="max-w-[100px] mx-auto lg:mb-12 " src="c2-assets/service.png" alt=""></div>
+            <h1 class="text-[#111111] font-semibold text-2xl mb-3">24/7 Services </h1>
+            <p class="text-[#111111] text-xl font-light px-8 pb-11">Experience unparalleled convenience with our 24/7 services, ensuring assistance is always available when you need it. </p>
+        </div>
+<!--        card-2-->
+        <div class="text-center justify-center items-center bg-[#EFEBE3] rounded-2xl">
+            <div><img class="max-w-[100px] mx-auto lg:mb-12 " src="c2-assets/delivery.png" alt=""></div>
+            <h1 class="text-[#111111] font-semibold text-2xl mb-3">Fast Delivery </h1>
+            <p class="text-[#111111] text-xl font-light px-8 pb-11">We deliver your items quickly and reliably, ensuring they arrive when you need them. </p>
+        </div>
+<!--        card -3-->
+        <div class="text-center justify-center items-center bg-[#EFEBE3] rounded-2xl">
+            <div><img class="max-w-[100px] mx-auto lg:mb-12 " src="c2-assets/healthy.png" alt=""></div>
+            <h1 class="text-[#111111] font-semibold text-2xl mb-3">Healthy Product </h1>
+            <p class="text-[#111111] text-xl font-light px-8 pb-11">Our products are crafted with natural ingredients to support your healthy lifestyle. </p>
+        </div>
+    </div>
+ </section>
 </main>
 <footer>
 
